@@ -1,0 +1,73 @@
+* {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 13pt;
+}
+
+body {
+     margin-left: .25in;
+     margin-top: .25in;
+}
+
+.letter {
+     color: blue;
+     font-weight: bolder;
+}
+
+div#numbers {
+     width: 90%;
+}
+
+div#numbers div {
+     display: inline-block;
+     width: .75in;
+     height: .42in;
+     margin: 1px;
+     border: solid 1px black;
+     text-align: center;
+     padding-top: 10px;
+
+}
+
+div#numbers div span._1 {
+     transform: rotate(1deg);
+     display: inline-block;
+}
+
+div#numbers div span._2 {
+     transform: rotate(-2deg);
+     display: inline-block;
+}
+
+div#numbers div span._3 {
+     transform: rotate(3deg);
+     display: inline-block;
+     color: #270400;
+}
+
+div#numbers div span._4 {
+     transform: rotate(-4deg);
+     display: inline-block;
+     color: green;
+}
+
+div#numbers div span._5 {
+     transform: rotate(-7deg);
+     display: inline-block;
+}
+
+div#numbers div span._6 {
+     transform: rotate(-16deg);
+     display: inline-block;
+     color: red;
+}
+
+div#numbers div span._7 {
+     transform: rotate(-16deg);
+     display: inline-block;
+     background-color: black;
+     color: white;
+     font-weight: bolder;
+}
+._number {
+     font-style: italic;
+}
